@@ -1,12 +1,17 @@
 # AWS-Project-1
 This AWS project is an integration of more than 10 AWS services to create a 3 tier architecture.
+
 Description of tiers:
 1. Web tier:
+   
    This is created under a public subnet and facilitates the user interaction and requests in the webpage/website.
-2. App tier:
+3. App tier:
+   
    This tier contains all the codes and packages (Nginx, Nodejs(React)) necessary to run the webpage/website.
-3. Database tier:
+5. Database tier:
+   
    This tier is used to store the number of visits of the customers to the webpage.
+   
 AWS services used:
 1. EC2 instances
 2. Auto scaling groups
@@ -23,3 +28,11 @@ AWS services used:
 13. Elastic file system
 
 This architecture is designed to provide scalability, security, high availability and fault tolerance.
+
+
+
+
+PROJECT ARCHITECTURE:
+
+<img width="1018" alt="AWS-3-tier-arch" src="https://github.com/user-attachments/assets/6bf9b110-e393-4926-aac6-e5e93b3e26cc">
+
